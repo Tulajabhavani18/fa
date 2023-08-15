@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    width: 100%;
+}
+
+
+section{
+    height: 240px;
+    width: 240px;
+    /* border: 2px solid aqua; */
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+img{
+    height: 240px;
+    width: 240px;
+    bottom: 0px;
+    transition: transform .7s;
+}
+
+.parent{
+    height: 0px;
+    width: 100%;
+    background-color: rgb(55, 209, 68);
+    bottom: 0px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    transition: height .7s;
+    overflow: hidden;  
+
+}
+
+section:hover .parent
+{
+    height:35% ;
+
+}
+
+section:hover img{
+    transform: translate(0px,-10px);
+}
+
+
+.parent .child{
+    padding: 20px;
+    width: 50%;
+    height: 100%;
+    /* text-align:right; */
+}
+
+.parent .icon
+{
+    padding: 20px;
+    width: 10px;
+    height: 50%;
+    text-align: center;
+    display: flex;
+}
+
+section .parent .child p{
+    font-size: 15px;
+    margin-top: 5px;
+    margin: 2px;
+    
+}
+
+
+.parent i{
+    margin-left: -51px;
+    margin-top: 11px;
+    margin-right: 64px;
+    /* flex-direction: row; */
+}
+
+.parent p{
+    margin-right: 5px;
+}
+
+.parent h1{
+margin-bottom: 2px;
+}
+
+.icon i{
+display: flex;
+}

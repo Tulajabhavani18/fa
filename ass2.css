@@ -1,0 +1,38 @@
+*
+{
+    padding: 25px;
+    margin: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+ html,body
+ {
+   width: 100%;
+ }
+
+.box
+{
+   border: 2px solid greenyellow;
+   height:50px;
+   width: 189px;
+   text-align: center;
+   padding:5px;
+   margin-bottom: 20px;
+}
+
+.table1
+{
+    /* border: 2px solid red; */
+    /* height: 100px; */
+    width: 200px; 
+    margin-left: 10px; 
+}
+
+.border
+{
+    /* border: 2px solid orange; */
+    flex-wrap: wrap;
+    display: flex;
+    
+    margin: 50% auto;
+}

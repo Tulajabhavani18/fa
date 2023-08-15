@@ -1,0 +1,110 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html,body
+{
+    width: 100%;
+}
+
+.pic1
+{
+    height: 250px;
+    width: 250px; 
+    /* border: 2px solid red; */
+    margin:100px auto;
+    position: relative;
+}
+img
+{
+height: 100%;
+width: 100%;
+}
+
+.icon
+{
+    height: 100%;
+    width: 0%;
+    /* border: 2px solid blue; */
+    position: absolute;
+    bottom:0;
+    left:0;
+    background-color: rgba(95, 90, 90, 0.858);
+    color: white;
+    transition: width .3s;
+    overflow: hidden;
+}
+i
+{
+    padding: 12px 10px;
+}
+.pic1:hover .icon
+{
+    width: 18%;
+}
+.contant{
+    position: absolute;
+    height: 0%;
+    width: 100%;
+    bottom: 0;
+    /* top:0; */
+    /* background-color: rgba(95, 90, 90, 0.858); */
+    color: white;
+    transition: height .3s;
+    overflow: hidden;
+    /* margin-right: 15px; */
+
+}
+.contant p{
+    margin-left: 68px;  
+}
+.contant h3{
+    margin-left: 105px;  
+}
+.pic1:hover .contant
+{
+    height: 25%;
+}
+.bg
+{
+    height: 0%;
+    width: 100%;
+    background-image: linear-gradient(rgba(206, 198, 198, 0) ,rgba(82, 67, 67, 0.854));
+    position: absolute;
+    bottom: 0;
+    /* transition: height .2s; */
+}
+.pic1:hover .bg
+{
+    height: 100%;
+}
+
+
+.all{
+    height: 400px;
+    width: 90%;
+    /* border: 2px solid greenyellow; */
+    display: flex;
+    margin: 10% auto;
+    margin-top: 20px;
+}
+
+.font
+{
+    text-align: center;
+    margin-top: 15px;
+}
+
+hr{
+margin-top: 26px;
+width: 90px;
+height: 3px;
+margin-left: 47%;
+background-color:rgb(235,93,30);
+border: none;
+border-radius: 5px;
+
+}

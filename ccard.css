@@ -1,0 +1,89 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+}
+
+.main
+{
+    border: 2px solid gray;
+    height: 280px;
+    width: 236px;
+    margin: 50px auto;
+    border-radius: 10px;
+    /* padding: 10px; */
+    overflow: hidden;
+    position: relative;
+    transition: all .5s;
+}
+
+
+.fa-globe
+{
+    font-size: 40px;
+    background-color:rgba(112, 163, 198, 0.849);
+    height: 55px;
+    width: 55px;
+    border-radius: 27px;
+    text-align: center;
+    padding: 8px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+ p{
+    padding: 5px;
+    transition: all .2s;
+ }
+
+h1
+{
+    padding: 5px;
+    margin-top: 25px;
+    margin-bottom: 28px;
+    transition: all .2s;
+}
+
+.cover
+{
+    position: absolute;
+    height: 17%;
+    width: 16%;
+    background-color: rgba(162, 206, 237, 0.653);
+    border-bottom-left-radius: 125px;
+    margin-left: 195px;
+    top: 0;
+    right: 0;
+    z-index: -1;
+
+}
+
+.main:hover .cover
+{
+    height: 100%;
+    width: 100%;
+    border-bottom-left-radius: 0;
+    /* background-color: blue; */
+
+}
+
+
+.main:hover p
+{
+    color: white;
+}
+
+.main:hover h1
+{
+    color: white;
+}
+
+.main:hover i
+{
+    color: white;
+}

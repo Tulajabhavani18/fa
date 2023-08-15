@@ -1,0 +1,118 @@
+/*( element selector) */
+
+/* p{
+   color:red;
+   font-size: 20px;
+} */
+
+/*(same as before and here its only select  all were in<h1>)_ */
+/* h1{
+    color: blue;
+    font-size: 20px;
+} */
+
+/*(same as before and here its only select  all were in<a>)_ */
+/* a{
+    color: brown;
+    font
+} */
+
+/*(group seloctor IT SELECT ALL in p,h1,a not spicfic)*/
+
+/* p,h1,a{
+    color:burlywood;
+} */
+
+
+/* (class selector we  should have assign class name by [.CN] tht CN(class name) should be present html) */
+
+/* here only <p>data is checked */
+/* p.clo{
+color:yellowgreen;
+} */
+
+/* here only <h1> data is checked */
+/* h1.colo{
+    color: red;
+}  */
+
+/* here only <a> data is checked */
+/* a.cool{
+    color:goldenrod;
+} */
+
+/* genric class use only [.cn (class name)]not respect to tag it can be <p><h1><a> */
+.clo
+{
+    text-decoration: overline;
+    color: blanchedalmond;
+}
+
+/* ID SEL BASED ON ID NAME N HERE CLASSNAME IS DIFFENT FROM IDNAME COZ WE CAN USE IN ONE (ID GET MORE PREFENCE DEN NAME)  */
+#color
+{
+    font-style: italic;
+    color: blue;
+}
+
+/* ATTRIBUTE SEL WHERE SELECTING ATTRIBUTE IS SELECTED[] */
+/* input[minlength]
+{
+    text-decoration: line-through;
+} */
+
+/* ATTRIBUTE SEL WHERE SELETING ONLY TYPE[] */
+/* input[type=email]
+{
+    text-decoration: line-through;
+} */
+
+/* sibling selector */
+
+/* CHILD SEL OF DESCENDENT (SPACE) */
+/* select under div of a */
+/* div a{
+    color: aquamarine;
+} */
+
+/* select inside p of a*/
+/* p a{
+    color: aqua;
+} */
+
+/* full select all in side div n p n a */
+ /* div p,a{
+    color: bisque;
+ } */
+
+ /* CHILD SEL OF Direct (>) */
+ /* select under div of a  */
+ /* div>a{
+    color: blueviolet;
+ } */
+
+ /* select inside p of a*/
+/* p>a{
+    color: chartreuse;
+ } */
+
+/* only select inside the p of  same as aboue*/
+ /* div>p>a{
+    color: rgb(196, 252, 255);
+ } */
+
+ /* sibling HAS AFAIN 2 it move in forwasd direction */
+
+ /* ADJACENT SIBLING (+) */
+/* only after div next line is selected */
+ /* div+a{
+    color: darkcyan;
+ } */
+
+ /* only after div next n next line is selected  */
+ /* div~a{
+    color: rgb(14, 154, 77);
+ }  */
+
+
+

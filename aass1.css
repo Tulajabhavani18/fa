@@ -1,0 +1,149 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    width: 100%;
+}
+
+main{
+    background-color: cadetblue;
+    height: 80%;
+    width: 100%;
+    
+}
+
+
+nav .logo
+{
+    margin-left:  80px;
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    text-decoration: none;
+}
+
+
+nav ul{
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 520px;
+    margin-right: 40px;
+    margin-top: -17px;
+    /* border:1px solid aliceblue ; */
+    
+}
+
+nav ul li {
+    display: inline;
+    text-decoration: none;
+    margin-left: 30px;
+    
+}
+
+nav a{
+    font-weight: 800;
+    color: white;
+    text-decoration:none;
+    /* to remove underline */
+    
+}
+.boddy{
+    /* border: 1px solid whitesmoke; */
+    padding: 70px;
+}
+ h1{
+    margin-bottom: 25px;
+    margin-top: -30px;
+
+ }
+
+.btn{
+    border: 2px solid black;
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 4px;
+    color: white;
+}
+
+.boddy p{
+    margin-bottom: 70px;
+}
+
+.card {
+    /* border: 1px solid white; */
+    display: flex;
+    padding: 20px;
+    margin-top: -67px;
+    margin-left: 50px;
+    /* background-color: darkcyan; */
+    
+    
+    /* width: 20px; */
+}
+.t1{
+    border:1px solid white;
+    padding:44px;
+    margin: 10px;
+    background-color: cadetblue;
+}
+.t2{
+    border:1px solid white;
+    padding: 44px;
+    margin: 10px;
+    background-color: cadetblue;
+}
+.t3{
+    border:1px solid white;
+    padding: 44px;
+    margin: 10px;
+    background-color: cadetblue;
+}
+.t4{
+    border:1px solid white;
+    padding: 44px;
+    margin: 10px;
+    background-color: cadetblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* nav ul li{
+    display: inline;
+    margin-left: 60px;
+    border: 2px solid black;
+
+}
+ nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
+    border: 2px solid black;
+  } */

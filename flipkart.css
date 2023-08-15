@@ -1,0 +1,213 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+}
+
+.all
+{
+    width: 100%;
+}
+
+.blue
+{
+    height: 47px;
+    width: 100%;
+    background-color: blue;
+    position: relative;
+    display: flex;
+
+
+}
+
+img{
+    height: 25px;
+    width: 87px;
+    margin-left: 100px;
+    margin-top: 9px;
+}
+
+.sbox
+{
+
+   padding: 10px;
+   width: 220px;
+   text-align: 12px;
+   /* margin-left: 3px; */
+   
+}
+
+.sbox input
+{
+    height: 29px;
+    width: 268px;
+    margin-top: 0px;
+    padding: 5px;
+    text-align: 12px;
+    
+
+
+}
+
+.main{
+    position: relative;
+    margin-left: -5px;
+
+}
+
+.plus img{
+    height: 7px;
+    width: 7px;
+    margin-top: -9px;
+    margin-bottom: 30px;
+    margin-left: 159px;
+}
+
+.search i{
+    position: absolute;
+    top: 16px;
+    left: 255px;
+    color: blue;
+    
+}
+
+.btn button
+{
+    margin-left: 77px;
+    /* border: 2px solid red; */
+    height: 23px;
+    width: 82px;
+    margin-top: 14px;
+    color: blue;
+}
+
+.p{
+    color: white;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.mp p
+{
+    color: white;
+    margin-left: 33px;
+    margin-top: 15px;
+    /* border: 2px solid red; */
+    height: 23px;
+    width: 55px;
+}
+.mp
+{
+   position: relative;
+}
+
+.mp i
+{
+    color: white;
+    margin-left: 75px;
+    top: 14px;
+    position: absolute;
+    
+}
+
+.cart p
+{
+    color: white;
+    margin-left: 55px;
+    margin-top: 16px;
+    /* border: 2px solid red; */
+}
+
+.cart
+{
+    position: relative;
+}
+
+.cart i
+{
+    color: white;
+    margin-left: 36px;
+    top: 17px;
+    position: absolute;   
+}
+
+.logo p{
+    color: white;
+    margin-top: -7px;
+    margin-left: 106px;
+    font-size: 10px;
+}
+
+
+.logo span{
+    color: yellow;
+    margin-left: 3px;
+}
+
+.imgss
+{
+display: flex;
+margin-left: -7px;
+text-align: center;
+}
+
+
+.imgss img
+{
+  height: 50px;
+  width: 50px;
+  margin-left: 45px;
+}
+
+.imgss p
+{
+    font-size: 13px;
+    margin-left: 45px;
+
+}
+.ss{
+    display: flex;
+    /* margin-top: 2px; */
+}
+
+.ii{
+    margin-top: -3px;
+    /* margin-right: 1px; */
+}
+
+.full img
+{
+    height: 200px;
+    width: 100%;
+    margin-left: 0px;
+
+
+}
+
+.im{
+    position: relative;
+}
+
+.i1{
+    /* border: 2px solid red; */
+    padding: 26px 12px;
+    top:205px;
+    
+    background-color: white;
+    position: absolute;
+
+}
+
+.i2{
+    padding: 26px 12px;
+    top:205px;
+    right: 0%;
+    background-color: white;
+    position: absolute;
+
+}

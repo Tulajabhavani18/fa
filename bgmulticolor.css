@@ -1,0 +1,41 @@
+/* *
+{
+ box-sizing: border-box;
+ margin: 0%;
+ padding: 0%;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html,body{
+    width: 100%;
+} */
+
+/* (only for color multicolor)*/
+/* .bgmulcol
+{
+color: aliceblue;
+background-image:linear-gradient(red,pink,brown,rgb(249, 7, 7));
+height: 340px;
+width: 270px;
+margin: 100px auto;
+border-radius: 2px;
+} */
+
+/* (for adding image ifront of color n adding color front of image) */
+
+.bgmulcol
+{
+    box-sizing: border-box;
+    margin: 50% auto;
+    padding: 6px;
+    height: 387px;
+    width: 300px;
+    
+    color:white;
+    /* minm 2 color should present */
+    background-image:linear-gradient(rgba(255, 192, 203, 0.564),rgba(255, 192, 203, 0.573)),
+    url(./goldenretrie.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    
+}

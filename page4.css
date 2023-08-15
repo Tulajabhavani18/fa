@@ -1,0 +1,242 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html,body
+{
+    width: 100%;
+}
+
+.navbar
+{
+    /* border: 2px solid red; */
+    height: 62px;
+    width: 100%;
+    /* position: fixed; */
+    z-index: 99999;
+    display:flex;
+    padding: 20px;
+    box-shadow: 0px 3px 5px rgba(211, 210, 210, 0.566);
+    background-color: white;
+    /* margin-top: -24px; */
+    
+
+}
+
+
+.navbar a{
+    /* border: 2px solid green; */
+    margin-left: 65px;
+    font-family: "Raleway", sans-serif;
+    font-size: 25px;
+    margin-top: -5px;
+    font-weight: bold;
+    color: #24325d;
+
+
+}
+
+.navbar ul{
+    /* border: 2px solid yellow; */
+    display:flex;
+    margin-left: 385px;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    margin-top: 4px;
+
+    
+}
+.navbar ul li
+{
+    /* border: 2px solid pink; */
+    list-style-type: none;
+    margin-left: 42px;
+}
+
+.navbar ul li:hover
+{
+    color: #006fbe;
+}
+
+
+.contact
+{
+    /* border: 3px solid rgb(0, 119, 255); */
+    padding: 15px;
+    background-color: white;
+    width: 30%;
+    height: 260px;
+    margin-left: 150px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.forms
+{
+    /* border: 3px solid rgb(0, 255, 60); */
+    padding: 15px;
+    /* margin-left: 25px; */
+    margin-right:125px ;
+    width: 65%;
+    background-color: white;
+    text-align: center;
+    margin-top: 33px;
+
+}
+.name
+{
+    height: 45px;
+    width: 43%;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.email
+{
+    height: 45px;  
+    width: 40%;
+    margin-left: 50px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.sub
+{
+    height: 45px;
+    width: 90%;
+    margin-top: 25px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.mess
+{
+    margin-top: 25px;
+    width: 90%;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.loc,.mail,.call
+{
+    margin: 25px;
+}
+.forms a
+{
+    /* border: 3px solid red; */
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color:rgb(0, 111, 190);
+    color: aliceblue;
+    border-radius: 6%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200px;
+}
+.btn
+{
+    margin-top: 25px;
+}
+.map iframe
+{
+    width: 68%;
+    height: 240px;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+.five
+{
+    height: 250px;
+    width: 100%;
+    margin-top: 100px;
+    background-color: rgb(29, 40, 75);
+    text-align: center;
+    padding: 20px;
+}
+.five h2
+{
+    color: white;
+    margin-top: 15px;
+}
+.five p
+{
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.five i
+{
+    padding: 8px;
+    border-radius: 100%;
+    background-color: rgb(0, 111, 190);
+    color: white;
+    font-size: 13px;
+}
+.five .fa-facebook
+{
+    padding: 8px 10px;
+}
+.main i
+{
+    font-size: 15px;
+    padding: 15px;
+    color: rgba(0, 111, 190);
+    background-color:rgba(0, 111, 190, 0.147) ;
+    border-radius: 100%;
+}
+
+.footer{
+    height: 270px;
+    width: 100%;
+    background-color: #1d284b;
+    margin-top: 250px;
+}
+
+.footer h2{
+ background: #1d284b;
+color: #fff;
+font-size: 40px;
+text-align: center;
+padding: 30px 0;
+}
+
+.footer p{
+color: white;
+text-align: center;
+margin-top: -10px;
+}
+
+.footer i{
+background: #006fbe;
+color: #fff;
+line-height: 1;
+padding: 8px 0;
+margin-right: 4px;
+border-radius: 50%;
+text-align: center;
+width: 36px;
+height: 36px;
+}
+
+.footer .link {
+margin-left: 20px;
+margin-top: 20px;
+text-align: center;
+}
+
+.p1 p{
+color: white;
+text-align: center;
+margin-top: 35px;
+}
+
+.p2 p{
+color: white;
+text-align: center;
+margin-top: 2px;
+}
+.main{
+    display: flex;
+    margin-top: 5px;
+}

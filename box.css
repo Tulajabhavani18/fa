@@ -1,0 +1,49 @@
+/* .div1
+{
+    background-color: pink;
+    font-size: 40px;
+    font-weight: bold;
+    width: 93px;  */
+
+    
+    /* border: 20px solid plum;  */
+    /* border: 20px dotted plum; */
+    /* border: 20px inset plum; */
+    /* border: 20px groove plum; */
+    /* border: 20px double plum; */
+    /* border: 20px dashed plum; */
+
+    /* border-left: 10px solid #000;
+    border-right: 10px solid #000;
+    border-top: 10px solid rgb(114, 63, 63);
+    border-bottom: 10px solid rgb(114, 63, 63); */
+
+    /* padding: 20px;
+    padding: 20px 40px;
+    padding: 10px 20px 30px 50px; */
+    /* (one another same give 4 sides at a time or giving seperat separt) */
+    /* padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 60px;
+    padding-left: 80px; */
+
+    /* purple border 4 side also we can give with soldier border */
+    /* outline: 15px solid rebeccapurple;
+    /* white color */
+    /* outline-offset: 3px; */
+/* } */ 
+
+.div2
+{
+    background-color: rgb(248, 238, 226);
+    font-size: 40px;
+    font-weight: bold;
+    width: 93px;   
+    border: 10px groove rgb(210, 158, 175);
+    /* outline: 5px solid rgb(117, 2, 4); */
+    /* here right invisible line with we cant see */
+    margin: 50px auto;
+    /* margin: 30px 60px; */
+    /* margin: 100px 100px 100px 100px; */
+    /* or give fore sides different */
+}

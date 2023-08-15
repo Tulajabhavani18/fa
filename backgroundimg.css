@@ -1,0 +1,20 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html,body
+{
+    width: 100%;
+}
+body
+{
+background-image: url(https://images.pexels.com/photos/4014721/pexels-photo-4014721.jpeg?auto=compress&cs=tinysrgb&w=600);
+background-repeat: no-repeat;
+background-position: center;
+background-size: 100% 100%;
+background-attachment: fixed;
+color: white;
+}

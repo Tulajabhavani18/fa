@@ -1,0 +1,48 @@
+*
+{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html,body
+{
+ width: 100%;
+}
+
+.banner
+{
+    /* background-color: brown; */
+    text-align: center;
+    padding: 1px;
+    height: 442px;
+
+    background-image: linear-gradient(rgba(124, 120, 120, 0.486),rgba(157, 155, 155, 0.541)),url(https://images.pexels.com/photos/17786843/pexels-photo-17786843/free-photo-of-sea-city-water-building.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: 100% 100%;
+    }
+
+.banner .banner-cen{
+width: 700px;
+margin: 80px auto;
+color: white;
+}
+.banner .banner-cen p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+}
+
+.banner .banner-cen h1{
+    margin-bottom: 50px;
+}
+.banner a
+{
+margin-bottom:200px;
+color: aliceblue;
+}
+
+

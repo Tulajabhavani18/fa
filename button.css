@@ -1,0 +1,48 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html,body{
+    width: 100%;
+}
+
+/* almost used for buttom */
+.tdn
+{
+text-decoration: none;
+}
+
+.btn
+{
+    margin: 50px;
+    /* background-color: #ce1212; */
+    border: none;
+    border-radius: 22px;
+    padding: 11px 20px;
+    color: white;
+    font-size: 13px;
+    letter-spacing: 2px;
+    }
+.btn-red
+{
+    background-color: #ce1212;
+}
+.btn-yellow
+{
+    background-color: #fafa59;
+}
+.btn-orange
+{
+    background-color: #f1bc6e;
+}
+.btn-green
+{
+    background-color: #b1f575;
+}
+.btn-pink
+{
+    background-color: #f37ac9;
+}
